@@ -10,9 +10,48 @@ body {
 
 #header {
     text-indent: -9999px;
-    margin: 50px auto;
+    margin: 70px auto 60px auto;
     width: 905px;
     height: 76px;
     background-image: url(images/logo.png);
     background-repeat: no-repeat; 
+}
+
+.pad-section {
+    width: 850px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label {
+    font-size: 0.9em;
+    color: #e5e3e7;
+    font-family: Arial;
+    margin-bottom: 20px;
+    padding: 0;
+    
+}
+
+.btn {
+    width: 180px;
+    height: 120px;
+    padding: 0;
+    background-color: #0e0b12; 
+    margin: 0px 0px 20px 0px;
+    border-radius: 5px;
+    clear: both;
+}
+
+.pad-key {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.pad-name {
+    float: right;
+    padding: 0;
+    margin: 0;
 }
