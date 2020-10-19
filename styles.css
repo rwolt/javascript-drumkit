@@ -42,6 +42,13 @@ body {
     margin: 0px 0px 20px 0px;
     border-radius: 5px;
     clear: both;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(0.97);
+    border-color: #f6ffd0;
+    box-shadow: 0 0 10px #f6ffd0;
 }
 
 .pad-key {
